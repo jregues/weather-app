@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Weather Dashboard</h1>
+        </nav>
+    </header>
+    <main>
+        <section id="city">
+            <!-- inject h2 with city value followed by date.js value -->
+            <div id="temp">
+
+            </div>
+            <div id="wind">
+
+            </div>
+            <div id="humidity">
+
+            </div>
+        </section>
+        <section id="forecast">
+            <div id="firstday">
+                <!-- dayjs day1 -->
+                <div id="temp1"></div>
+                <div id="wind1"></div>
+                <div id="humid1"></div>
+            </div>
+            <div id="secondday">
+                <!-- dayjs day2 -->
+                <div id="temp2"></div>
+                <div id="wind2"></div>
+                <div id="humid2"></div>
+            </div>
+            <div id="thirdday">
+                <!-- dayjs day3 -->
+                <div id="temp3"></div>
+                <div id="wind3"></div>
+                <div id="humid3"></div>
+            </div>
+            <div id="fourthday">
+                <!-- dayjs day4 -->
+                <div id="temp4"></div>
+                <div id="wind4"></div>
+                <div id="humid4"></div>
+            </div>
+            <div id="fifthday">
+                <!-- dayjs day 5-->
+                <div id="temp5"></div>
+                <div id="wind5"></div>
+                <div id="humid5"></div>
+            </div>
+        </section>
+        <aside>
+            <section id="citysearch">
+                <h2>Search for a City:</h2>
+                <input type="text" placeholder="San Diego">
+                <button type="submit">Search</button>
+            </section>
+            <section id="city-list">
+                <ul>
+                    <li><button type="button" id="atlanta">Atlanta</button></li>
+                    <li><button type="button" id="denver">Denver</button></li>
+                    <li><button type="button" id="seattle">Seattle</button></li>
+                    <li><button type="button" id="sanfran">San Francisco</button></li>
+                    <li><button type="button" id="orlando">Orlando</button></li>
+                    <li><button type="button" id="newyork">New York</button></li>
+                    <li><button type="button" id="chicago">Chicago</button></li>
+                    <li><button type="button" id="austin">Austin</button></li>
+                </ul>
+            </section>
+        </aside>
+    </main>
+</body>
+</html>
