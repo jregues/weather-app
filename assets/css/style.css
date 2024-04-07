@@ -42,6 +42,16 @@ header {
     padding-bottom: 10px;
 }
 
+#skyd {
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    padding-left: 50px;
+    margin-left: 0;
+    text-align: left;
+}
+
+
 #tempd {
     margin: 5px;
     padding: 5px;
@@ -94,26 +104,53 @@ body {
 .card {
     border: 0px solid black;
     margin: 50px;
-    padding-top: 150px;
+    padding: 40px;
     width: 10%;
     float: right;
-    /* align-items: end; */
+    text-align: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     background-color: #2e2e76;
     color: white;
-    padding-bottom: 150px;
-    padding-right: 120px;
-    padding-left: 120px;
 }
 
 .container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#city-list ul button {
+.date {
+    margin: 5px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.sky {
+    margin: 5px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.temp {
+    margin: 5px;
+    padding: 15px;
+    font-size: 15px;
+}
+.wind {
+    margin: 5px;
+    padding: 15px;
+    font-size: 15px;
+}
+.humid {
+    margin: 5px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+#city-list div button {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 100px;
@@ -125,7 +162,7 @@ body {
     border: 2px solid black;
 }
 
-#city-list ul {
+#city-list div {
     list-style: none;
     padding-left: 0;
 }
@@ -154,4 +191,9 @@ body {
     margin: 15px;
     padding: 15px;
     display: inline-grid;
+}
+
+button:hover {
+    background-color: #2e2e76;
+    color: white;
 }
