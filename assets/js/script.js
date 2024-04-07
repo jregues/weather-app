@@ -222,10 +222,9 @@ $('form').on('submit', function (event) {
                     cHumidParent5.appendChild(chumid5);
                 })
         })
+        return(event);
 })
-    .catch(error => {
-        console.error('Error fetching data:', error);
-    });
+  
 
 const atlanta = getElementById('atlanta');
 atlanta.addEventListener('click', function (event) {
